@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.containerDados {
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.containerSpans {
+    margin: 10px;
+    font-size: 25px;
+    border: 2px solid white;
+    width: 250px;
+}
+
+
