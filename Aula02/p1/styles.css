@@ -8,17 +8,26 @@
 .barraDeBusca {
     background-color: dodgerblue;
     padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
     width: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .pesquisa {
     width: 150px;
-    position: relative;
-    bottom: 30px;
 }
 
 .barraDeAcesso {
     background-color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .btns {
