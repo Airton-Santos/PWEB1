@@ -1,12 +1,11 @@
 .barraSuperior {
-    background-color: cornflowerblue;
+    border-bottom: solid 1px black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .barraDeBusca {
-    background-color: dodgerblue;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -14,20 +13,27 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
 .pesquisa {
+    padding: 10px;
     width: 150px;
+    height: 35px;
+    background-color: rgb(223, 213, 213);
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
 }
 
 .barraDeAcesso {
-    background-color: azure;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    gap: 16px;
 }
 
 .btns {
@@ -40,15 +46,36 @@
     text-align: center
 }
 
+.btnsC {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgb(85, 85, 85);
+}
+
 .btns:hover {
     background-color: black;
     color: white;
 }
 
+.btnsC:hover {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
 .logoIfal {
     width: 200px;
+    border-radius: 30px;
 }
 
 .user {
     width: 70px;
+}
+
+.user:hover {
+    filter: brightness(50%);
 }
