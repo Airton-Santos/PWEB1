@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+/*Section Home*/
+
+.home {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    background-image: url('img/praia.jpg');
+    background-position: 0px 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reserva {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.reserva:hover {
+    background-color: #45a049; /* Mudança de cor quando passa o mouse */
+}
+
+/*Section informacoes*/
+
+.informacoes {
+    border-bottom: 1px solid rgb(177, 177, 177);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.info-1{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.iconsInfo {
+    width: 70px;
+}
+
+
+/*NewSletter*/
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    gap: 30px;
+    width: 100%;
+}
+
+.email {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+
+.email:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+.cadastrobtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
