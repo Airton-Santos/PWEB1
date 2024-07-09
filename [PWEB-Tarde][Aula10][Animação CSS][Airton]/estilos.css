@@ -1,0 +1,101 @@
+@keyframes crescer {        /*Nome da animação*/
+    from{ padding: 16px; }   /*começo da animação*/
+    to{ padding: 160px; }    /*Final da animação*/
+}
+
+body {
+    background-color: #000000;
+}
+
+.nome {
+    color: green;
+    padding: 30px;
+    font-size: 30px;
+    background-color: wheat;
+    border: solid black 2px;
+}
+
+.nome:hover {
+
+    animation-name: crescer; /*nome da animação*/
+    animation-duration: 1s; /*Duração da animação*/
+
+}
+
+/*Animação 2*/
+
+
+@keyframes direita {
+    from{ margin-left: 20px; }
+    to{
+        margin-left: 800px;
+        color: #fff;
+        border: orange solid 1px;
+        background-color: green;
+    }
+}
+
+.nomeDois {
+    color: green;
+    padding: 30px;
+    font-size: 30px;
+    background-color: wheat;
+    border: solid black 2px;
+}
+
+.nomeDois:hover {
+    animation-name: direita;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+/*Animação 3*/
+
+@keyframes girar {
+    from{}
+    to{transform: rotate(360000deg);
+    }
+    
+}
+
+.nomeTres {
+    color: green;
+    padding: 30px;
+    font-size: 30px;
+    background-color: wheat;
+    border: solid black 2px;
+}
+
+.nomeTres:hover {
+    animation-name: girar;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+
+}
+
+/*Animação 4*/
+
+.nomeQuatro {
+    color: green;
+    padding: 30px;
+    font-size: 30px;
+    background-color: wheat;
+    border: solid black 2px;
+    animation-name: movimento;
+    animation-duration: 10s;
+}
+
+@keyframes  movimento {
+
+    0%{}
+
+    25%{
+        transform: translateX(0);
+        transform: translate(-200px);
+    }
+
+    50%{
+
+    }
+    
+}
